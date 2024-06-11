@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+	<title>Photoshop Screentone Calculator</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Banner -->
+		<section id="banner" class="major">
+			<div class="inner">
+				<header class="major">
+					<h1>Photoshop Screentone Calculator</h1>
+				</header>
+				<div class="content">
+					<p>Easily calculate screentone line frequency<br>
+					No data is being uploaded or stored</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact">
+			<div class="inner">
+				<section>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Pixel radius</label>
+								<input type="text" name="pixelRadius" id="pixelRadius"  />
+							</div>
+							<div class="field">
+								<label for="email">Angle</label>
+								<input type="text" name="angle" id="angle" value="45" />
+							</div>
+							<div class="field">
+								<label for="email">DPI</label>
+								<input type="text" name="dpi" id="dpi" value="600"/>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Submit" class="primary" /></li>
+							<li><input type="reset" value="Reset values" /></li>
+						</ul>
+						<div class="fields">
+							<div class="field">
+								<label for="name">Result Frequency</label>
+								<input type="text" name="frequency" id="frequency" readonly  />
+							</div>
+						</div>
+					</form>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-square-full"></span>
+							<h3>Pixel radius </h3> 
+							<span class="tooltip">The size of an entire tile. <span class="smol">(help)</span>
+							  <span class="tooltiptext">
+							    <img src="assets/radius-tooltip.png" alt="Example Image">
+								    To check the radius of an existing screentone use the marquee tool (M) and measure the size of a screentone tile. 
+							  </span>
+							</span>	
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-angle-down"></span>
+							<h3>Angle</h3>
+							<span class="tooltip">The angle between dots. <span class="smol">(help)</span>
+							  <span class="tooltiptext">
+							    <img src="assets/angle-tooltip.png" alt="Example Image">
+								    This is usually 45 degrees in manga but you can check an arbitrary angle using the ruler tool (I)
+							  </span>
+							</span>	
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-image"></span>
+							<h3>DPI</h3>
+							<span class="tooltip but-top">Pixels per inch. <span class="smol">(help)</span>
+							  <span class="tooltiptext but-top">
+							    <img src="assets/dpi-tooltip.png" alt="Example Image">
+								    To check your document's DPI go to Image > Image size <br/> (Ctrl + alt + I)
+							  </span>
+							</span>	
+						</div>
+					</section>	
+					<section>
+						<div class="contact-method">
+							<span class="icon solid alt fa-gem"></span>
+							<h3>Shape</h3>
+							<span class="tooltip but-top">The shape of the screentone dots. <span class="smol">(help)</span>
+							  <span class="tooltiptext but-top">
+							    <img src="assets/screentones-method.png" alt="Example Image">
+								    There are six screentone shapes in photoshop: </br>round, diamond, ellipse, line, square and cross. 
+							  </span>
+							</span>	
+						</div>
+					</section>					
+				</section>
+			</div>
+		</section>
+
+		<section id="two">
+			<div class="inner">
+				<header class="major">
+				<h2>How to use:</h2>
+				</header>
+				<ol class="instructions">
+					<li>In a new layer, paint the area you want to cover with a screentone using the appropiate gray shade.</li>
+					<img src="1.png" alt="Example Image">
+					<li>Copy the gray layer into a new document. Turn your image mode to <b>grayscale</b>, and then to <b>bitmap</b></li>
+					<img src="2.png" alt="Example Image">
+					<li>Select your DPI and as method use Halftone Screen. Then the rest of the paramenters including the calculated frequency value.</li>
+					<img src="3.png" alt="Example Image">
+					<li>Copy the generated screentone in place.</li>
+					<img src="4.png" alt="Example Image">
+				</ol>
+			</div>
+		</section>
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://x.com/GonzaloLetterer" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
+							</ul>
+							<ul class="copyright">
+								<!-- <li>&copy; Untitled</li> -->
+								<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<script type="text/javascript">
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Function to reset the form fields to their initial state
+    function resetFields() {
+        document.getElementById('pixelRadius').value = '';
+        document.getElementById('angle').value = '45';
+        document.getElementById('dpi').value = '600';
+        document.getElementById('frequency').value = '';
+        document.getElementById('frequency').disabled = true;
+    }
+
+	function submitForm() {
+	    const pixelRadius = document.getElementById('pixelRadius').value;
+	    const angle = document.getElementById('angle').value;
+	    const dpi = document.getElementById('dpi').value;
+
+	    if (!pixelRadius || !angle || !dpi) {
+	        document.getElementById('frequency').value = "Error. Fill out all the fields.";
+	        document.getElementById('frequency').disabled = false;
+	        return;
+	    }
+
+	    if (isNaN(pixelRadius) || isNaN(angle) || isNaN(dpi)) {
+	        document.getElementById('frequency').value = "Error. Use numeric values only.";
+	        document.getElementById('frequency').disabled = false;
+	        return;
+	    }
+
+	    const result = parseFloat(pixelRadius) + parseFloat(angle) + parseFloat(dpi);
+
+	    const frequencyField = document.getElementById('frequency');
+	    frequencyField.value = calculateFrequency(pixelRadius, angle, dpi);
+	    frequencyField.readOnly = false;
+	    frequencyField.select();
+	    frequencyField.readOnly = true;
+	}
+
+    // Attach event listeners to the buttons
+    document.querySelector('.actions input[type="reset"]').addEventListener('click', resetFields);
+    document.querySelector('.actions input[type="submit"]').addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent form submission
+        submitForm();
+    });
+
+    // Initialize the form to its default state
+    resetFields();
+});
+
+
+		function calculateFrequency(pixelRadius, angle, dpi){
+		    // 45 / 135
+		    //frequency = 1.4142 * dpi / pixelRadius;
+		    //all angles
+		    var radians = angle * Math.PI / 180; // to radians
+		    var factor = Math.abs(Math.sin(radians)) + Math.abs(Math.cos(radians));
+		    frequency = factor * dpi / pixelRadius;
+		    return parseFloat(frequency.toFixed(4));
+        }	
+    </script>
+
+</body>
+</html>
